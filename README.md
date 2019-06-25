@@ -1,5 +1,5 @@
 # Recommender
-collaborative filtering for ordered recommendations
+Collaborative filtering for ordered recommendations using recurrent nerual networks.
 
 Research:
 Sequence-Aware Recommender Systems
