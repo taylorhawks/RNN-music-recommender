@@ -3,6 +3,10 @@ Ordered recommendations using recurrent nerual networks.
 
 Pivoting to content-based system.
 
+### Key Concepts:
+- Recurrent Neural Networks
+- Traveling Salesman Problem
+
 ### Research:
 - Sequence-Aware Recommender Systems: https://arxiv.org/pdf/1802.08452.pdf
 
