@@ -12,5 +12,8 @@ Pivoting to content-based system.
 - Implemented API and functional input/output
 - PCA and visualization
 - Optional
-  - dimensionality reduction
-  - key change and genre considerations
+  - Dimensionality reduction
+  - Try different distance metrics
+  - Key and genre considerations (bias toward same genre, perfect 5ths)
+  - Very optional:
+    - Combine with collaborative factors
