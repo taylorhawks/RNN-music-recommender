@@ -20,6 +20,8 @@ Pivoting to content-based system.
 - Music consonance and dissonance: https://music.stackexchange.com/questions/4439/is-there-a-way-to-measure-the-consonance-or-dissonance-of-a-chord
 - Quantifying dissonance: http://musicalgorithms.ewu.edu/learnmoresra/files/vassilakis2005sre.pdf
 - http://sethares.engr.wisc.edu/comprog.html
+- https://arxiv.org/pdf/1603.08904.pdf
+- https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780195148367.001.0001/acprof-9780195148367-chapter-7
 
 ## Outline
 #### MVP
