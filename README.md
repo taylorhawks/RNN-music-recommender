@@ -1,7 +1,12 @@
 # Recommender
 Ordered recommendations using recurrent nerual networks.
 
-Pivoting to content-based system.
+The main focus of this project is a content-based algorithm.
+
+## The Algorithm
+1. Body of songs is selected using collaborative matrix completion.
+2. Recurrent neural network determines the ideal feature vector for the next song based on the previous sequence of songs.
+3. The next song is selected based on minimum cost, which is determined based on the distance from a song to ideal feature vector as well as the consonance of song key transition.
 
 ## Key Concepts
 - Sequence Learning
