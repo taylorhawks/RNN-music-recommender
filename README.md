@@ -13,7 +13,7 @@ Pivoting to content-based system.
 - https://www.kdnuggets.com/2015/06/rnn-tutorial-sequence-learning-recurrent-neural-networks.html
 - https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf
 - Sequence Learning from Nvidia: https://devblogs.nvidia.com/deep-learning-nutshell-sequence-learning/
-- The GOAT Andrew Ng: https://www.coursera.org/learn/nlp-sequence-models/home/welcome
+- The GOAT Andrew Ng: https://www.coursera.org/learn/nlp-sequence-models/lecture/ftkzt/recurrent-neural-network-model
 - Jason Brownlee: https://machinelearningmastery.com/sequence-prediction/
 
 ### Outline:
