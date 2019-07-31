@@ -62,5 +62,5 @@ The main focus of this project is a content-based algorithm.
 - Try different distance metrics
   
  #### Very optional
- - 3D Animated Visualization
+ - 3D Animated Visualization (Plotly)
  - Combine with collaborative factors
