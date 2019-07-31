@@ -21,6 +21,7 @@ The main focus of this project is a content-based algorithm.
 - Many-to-one architecture (or a somewhat modified many-to-many)
 - tanh or linear activation in hidden layers
 - Sigmoid activation in output layer
+- GRU is not necessary because long-term dependency is not important.
 
 ## Research
 - Sequence-Aware Recommender Systems: https://arxiv.org/pdf/1802.08452.pdf
