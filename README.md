@@ -20,7 +20,7 @@ The main focus of this project is a content-based algorithm.
 - Unidirectional
 - Many-to-one architecture
 - tanh or linear activation in hidden layers
-- sigmoid activation in output layer
+- Sigmoid activation in output layer
 
 ## Research
 - Sequence-Aware Recommender Systems: https://arxiv.org/pdf/1802.08452.pdf
