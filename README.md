@@ -14,6 +14,7 @@ Pivoting to content-based system.
 - https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf
 - Sequence Learning from Nvidia: https://devblogs.nvidia.com/deep-learning-nutshell-sequence-learning/
 - The GOAT Andrew Ng: https://www.coursera.org/learn/nlp-sequence-models/home/welcome
+- Jason Brownlee: https://machinelearningmastery.com/sequence-prediction/
 
 ### Outline:
 - API Scrape for training set
