@@ -17,14 +17,19 @@ Pivoting to content-based system.
 - Jason Brownlee: https://machinelearningmastery.com/sequence-prediction/
 - Quantifying dissonance: http://musicalgorithms.ewu.edu/learnmoresra/files/vassilakis2005sre.pdf
 
-### Outline:
-- API Scrape for training set
-- Training and evaluation of deep learning model
-- Implemented API and functional input/output
+#### MVP:
+- Get playlist and song data from spotify API
+- Train and evaluate RNN
 - PCA and visualization
-- Optional
-  - Dimensionality reduction
-  - Try different distance metrics
-  - Key and genre considerations (bias toward same genre, perfect 5ths)
-  - Very optional:
-    - Combine with collaborative factors
+- Functional input/output
+
+#### Optional
+- API with I/O
+- Key considerations (see quantifying dissonance)
+- Genre considerations
+- Dimensionality reduction
+- Try different distance metrics
+  
+ #### Very optional:
+ - 3D Animated Visualization
+ - Combine with collaborative factors
