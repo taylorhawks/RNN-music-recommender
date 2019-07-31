@@ -22,6 +22,7 @@ Pivoting to content-based system.
 - http://sethares.engr.wisc.edu/comprog.html
 - https://arxiv.org/pdf/1603.08904.pdf
 - https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780195148367.001.0001/acprof-9780195148367-chapter-7
+- https://i.stack.imgur.com/wmT4w.png
 
 ## Outline
 #### MVP
