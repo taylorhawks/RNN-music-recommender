@@ -10,6 +10,7 @@ The main focus of this project is a content-based algorithm.
 4. Next song is plugged into the RNN and the process repeats from step 2.
 
 ## Key Concepts
+- Recommendation Systems
 - Sequence Learning
 - Recurrent Neural Networks
 - Computational Music Theory
