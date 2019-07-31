@@ -11,6 +11,9 @@ Pivoting to content-based system.
 - Sequence-Aware Recommender Systems: https://arxiv.org/pdf/1802.08452.pdf
 - https://papers.nips.cc/paper/5653-a-recurrent-latent-variable-model-for-sequential-data.pdf
 - https://www.kdnuggets.com/2015/06/rnn-tutorial-sequence-learning-recurrent-neural-networks.html
+- https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf
+- Sequence Learning from Nvidia: https://devblogs.nvidia.com/deep-learning-nutshell-sequence-learning/
+- The GOAT Andrew Ng: https://www.coursera.org/learn/nlp-sequence-models/home/welcome
 
 ### Outline:
 - API Scrape for training set
