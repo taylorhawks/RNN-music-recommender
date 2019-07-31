@@ -15,6 +15,7 @@ Pivoting to content-based system.
 - Sequence Learning from Nvidia: https://devblogs.nvidia.com/deep-learning-nutshell-sequence-learning/
 - The GOAT Andrew Ng: https://www.coursera.org/learn/nlp-sequence-models/lecture/ftkzt/recurrent-neural-network-model
 - Jason Brownlee: https://machinelearningmastery.com/sequence-prediction/
+- Quantifying dissonance: http://musicalgorithms.ewu.edu/learnmoresra/files/vassilakis2005sre.pdf
 
 ### Outline:
 - API Scrape for training set
