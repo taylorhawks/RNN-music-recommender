@@ -6,6 +6,7 @@ Pivoting to content-based system.
 ## Key Concepts
 - Sequence Learning
 - Recurrent Neural Networks
+- Computational Music Theory
 - Traveling Salesman Problem
 
 
