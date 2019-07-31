@@ -68,8 +68,8 @@ The main focus of this project is a content-based algorithm.
  - Combine with collaborative factors
  
  ## Tech
- Spotify API
- Keras
- Plotly
- Mlrose
- Selenium ?
+ - Spotify API
+ - Keras
+ - Plotly
+ - Mlrose
+ - Selenium ?
