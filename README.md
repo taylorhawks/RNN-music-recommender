@@ -53,6 +53,7 @@ The main focus of this project is a content-based algorithm.
 - Train and evaluate RNN
 - PCA and visualization
 - Functional input/output
+- Neural network diagrams
 
 #### Optional
 - API with I/O
