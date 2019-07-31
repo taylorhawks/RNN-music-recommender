@@ -19,6 +19,7 @@ Pivoting to content-based system.
 - Jason Brownlee: https://machinelearningmastery.com/sequence-prediction/
 - Music consonance and dissonance: https://music.stackexchange.com/questions/4439/is-there-a-way-to-measure-the-consonance-or-dissonance-of-a-chord
 - Quantifying dissonance: http://musicalgorithms.ewu.edu/learnmoresra/files/vassilakis2005sre.pdf
+- http://sethares.engr.wisc.edu/comprog.html
 
 ## Outline
 #### MVP
