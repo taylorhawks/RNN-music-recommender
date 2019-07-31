@@ -22,6 +22,7 @@ The main focus of this project is a content-based algorithm.
 - tanh or linear activation in hidden layers
 - Sigmoid activation in output layer
 - GRU is not necessary because long-term dependency is not important.
+- Similarly, LSTM is not necessary.
 
 ## Research
 - Sequence-Aware Recommender Systems: https://arxiv.org/pdf/1802.08452.pdf
