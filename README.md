@@ -18,7 +18,7 @@ The main focus of this project is a content-based algorithm.
 ## Neural Network Architecture
 - Recurrent
 - Unidirectional
-- Many-to-one architecture
+- Many-to-one architecture (or a somewhat modified many-to-many)
 - tanh or linear activation in hidden layers
 - Sigmoid activation in output layer
 
