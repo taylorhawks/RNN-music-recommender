@@ -23,6 +23,9 @@ The main focus of this project is a content-based algorithm.
 - Sigmoid activation in output layer
 - GRU is not necessary because long-term dependency is not important.
 - Similarly, LSTM is not necessary.
+- Conventions:
+  - 2 or 3 hidden layers (more than that is quite rare for RNN due to the temporal dimension)
+  - Sometimes start with recurrent layers, and _then_ have deep layers.
 
 ## Research
 - Sequence-Aware Recommender Systems: https://arxiv.org/pdf/1802.08452.pdf
@@ -39,6 +42,10 @@ The main focus of this project is a content-based algorithm.
 - https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780195148367.001.0001/acprof-9780195148367-chapter-7
 - https://i.stack.imgur.com/wmT4w.png
 - kind-of famous blog post: http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+- drawing diagrams:
+  - http://fastml.com/deep-learning-architecture-diagrams/
+  - https://datascience.stackexchange.com/questions/14899/how-to-draw-deep-learning-network-architecture-diagrams
+  
 
 ## Outline
 #### MVP
