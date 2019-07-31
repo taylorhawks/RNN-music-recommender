@@ -15,6 +15,12 @@ The main focus of this project is a content-based algorithm.
 - Computational Music Theory
 - Traveling Salesman Problem
 
+## Neural Network Architecture
+- Recurrent
+- Unidirectional
+- Many-to-one architecture
+- tanh or linear activation in hidden layers
+- sigmoid activation in output layer
 
 ## Research
 - Sequence-Aware Recommender Systems: https://arxiv.org/pdf/1802.08452.pdf
@@ -30,6 +36,7 @@ The main focus of this project is a content-based algorithm.
 - https://arxiv.org/pdf/1603.08904.pdf
 - https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780195148367.001.0001/acprof-9780195148367-chapter-7
 - https://i.stack.imgur.com/wmT4w.png
+- kind-of famous blog post: http://karpathy.github.io/2015/05/21/rnn-effectiveness/
 
 ## Outline
 #### MVP
