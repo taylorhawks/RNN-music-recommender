@@ -11,7 +11,9 @@ The main focus of this project is a content-based algorithm.
 5. Once the RNN is fully trained the algorithm will be able to create playlists given a small number of songs as a starting sequence - even just a single song.
 
 #### Selecting the next song:
+<center>
 <img src = "https://latex.codecogs.com/gif.latex?%24%24%20s%5E%7B%3Cn%3E%7D%20%3D%20%5Cunderset%7Bs%5Cin%20S%5E%7B%3Cn%3E%7D%7D%7B%5Carg%5Cmin%7D%20%5Cbigg%28%5Csqrt%7B%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%20%5Cbig%28%5Chat%7BY%7D%5E%7B%3Cn%3E%7D_%7Bi%7D%20-%20s_%7Bi%7D%5Cbig%29%5E2%7D%20&plus;%20g%20*%20c%5Cbig%28s_%7Bk%7D%20-%20s%5E%7B%3Cn-1%3E%7D_%7Bk%7D%5Cbig%29%5Cbigg%29%20%24%24"/>
+</center>
 
 ## Key Concepts
 - Recommendation Systems
