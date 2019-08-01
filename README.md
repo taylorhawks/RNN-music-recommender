@@ -69,7 +69,7 @@ The main focus of this project is a content-based algorithm.
   
  #### Very optional
  - 3D Animated Visualization (Plotly)
- - Combine with collaborative factors
+ - Collaborative filtering
  
  ## Tech
  - Spotify API
