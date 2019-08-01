@@ -13,6 +13,9 @@ The main focus of this project is a content-based algorithm.
 #### Selecting the next song:
 <img src = "/images/song_selection.png"/>
 
+#### Computing with the RNN:
+<img/>
+
 ## Key Concepts
 - Recommendation Systems
 - Sequence Learning
