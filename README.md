@@ -11,7 +11,7 @@ The main focus of this project is a content-based algorithm.
 5. Once the RNN is fully trained the algorithm will be able to create playlists given a small number of songs as a starting sequence - even just a single song.
 
 #### Selecting the next song:
-$$ s^{<n>} = \underset{s\in S^{<n>}}{\arg\min} \bigg(\sqrt{\sum_{i=1}^{m} \big(\hat{Y}^{<n>}_{i} - s_{i}\big)^2}   + g * c\big(s_{k} - s^{<n-1>}_{k}\big)\bigg) $$
+$ s^{<n>} = \underset{s\in S^{<n>}}{\arg\min} \bigg(\sqrt{\sum_{i=1}^{m} \big(\hat{Y}^{<n>}_{i} - s_{i}\big)^2}   + g * c\big(s_{k} - s^{<n-1>}_{k}\big)\bigg) $
 
 ## Key Concepts
 - Recommendation Systems
