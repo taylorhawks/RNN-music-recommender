@@ -11,7 +11,7 @@ The main focus of this project is a content-based algorithm.
 5. Once the RNN is fully trained the algorithm will be able to create playlists given a small number of songs as a starting sequence - even just a single song.
 
 #### Selecting the next song:
-<img src = "/images/song_selection.png"/>
+<img src = "/images/song_selection_u.png"/>
 
 #### Computing with the RNN:
 <img/>
