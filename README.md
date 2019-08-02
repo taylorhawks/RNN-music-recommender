@@ -58,6 +58,7 @@ The main focus of this project is a content-based algorithm.
 ## Outline
 #### MVP
 - Get playlist and song data from spotify API
+- EDA w/ Dickey-Fuller test for stationarity of time series principal components
 - Train and evaluate RNN
 - PCA and visualization
 - Functional input/output
