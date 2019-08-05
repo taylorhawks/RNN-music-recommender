@@ -57,6 +57,7 @@ The main focus of this project is a content-based algorithm.
 ## Data Gathering
 #### Spotify API
 - How to get playlists: https://developer.spotify.com/documentation/web-api/reference/browse/get-list-featured-playlists/
+- Playlist curators: https://sidekick-music.com/2018/11/30/top-spotify-playlist-curators-2018/
 - Collaborative part:
   - Already have a dataset of users playlists
   - Can also use spotify's built-in recommendation via the API (as a placeholder of course)
