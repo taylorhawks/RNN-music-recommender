@@ -54,6 +54,13 @@ The main focus of this project is a content-based algorithm.
   - http://fastml.com/deep-learning-architecture-diagrams/
   - https://datascience.stackexchange.com/questions/14899/how-to-draw-deep-learning-network-architecture-diagrams
   
+## Data Gathering
+#### Spotify API
+- How to get playlists: https://developer.spotify.com/documentation/web-api/reference/browse/get-list-featured-playlists/
+- Collaborative part:
+  - Already have a dataset of users playlists
+  - Can also use spotify's built-in recommendation via the API (as a placeholder of course)
+
 
 ## Outline
 #### MVP
