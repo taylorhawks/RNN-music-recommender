@@ -54,6 +54,7 @@ The main focus of this project is a content-based algorithm.
   - http://fastml.com/deep-learning-architecture-diagrams/
   - https://datascience.stackexchange.com/questions/14899/how-to-draw-deep-learning-network-architecture-diagrams
 - http://docs.echonest.com.s3-website-us-east-1.amazonaws.com/_static/AnalyzeDocumentation.pdf
+- https://plot.ly/python/animations/
   
 ## Data Gathering
 #### Spotify API
