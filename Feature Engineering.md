@@ -23,5 +23,5 @@ One of the hardest questions in this project was how to use tempo.  Surely it's 
 
 <img src = "images/circle.jpg"/>
 
-Here's just the $ x $ component graphed against the input (tempo):
+Here's just the $x$ component graphed against the input (tempo):
 <img src = "images/tempo_circle_one_dimension.png"/>
