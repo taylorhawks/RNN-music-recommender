@@ -25,3 +25,8 @@ One of the hardest questions in this project was how to use tempo.  Surely it's 
 
 Here's just the _x_ component graphed against the input (tempo):
 <img src = "images/tempo_circle_one_dimension.png"/>
+
+A simplified similarity sccore is given by:
+<img src = "images/tempo_similarity.png"/>
+
+<a href = "https://www.wolframalpha.com/input/?i=cos(2pi*log2(a)-2pi*log2(b)))+in+range(30,200)">Wolfram Alpha</a>
