@@ -16,7 +16,9 @@
     - For output matching, use with key to determine harmonic/consonant transitions
   - Key
     - Use research in computational musicology for output matching
-  - Tempo ...
+  - Tempo
+    - Do not use for input or output of RNN
+    - similarity metric is explained below
 
 ## Tempo
 One of the hardest questions in this project was how to use tempo.  Surely it's an important feature, but how to treat it mathematically was not apparent at first.  I took an approach which expands tempo to two dimensions so that a similarity metric can be calculated as the distance between points. A circle is used to caputre the cyclical nature of tempo similarity.
