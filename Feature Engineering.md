@@ -13,9 +13,9 @@
 ### The hard part:
   - Mode
     - Use dummy variables for input, as interactions with other terms are important
-    - For output matching, use with key to determine harmonic/consonant transitions
+    - Not in output layer, but used with key to determine harmonic/consonant transitions
   - Key
-    - Use research in computational musicology for output matching
+    - Use research in computational musicology for output matching (along with mode)
   - Tempo
     - Do not use for input or output of RNN
     - similarity metric is explained below
