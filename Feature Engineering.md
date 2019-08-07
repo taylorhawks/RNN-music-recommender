@@ -1,5 +1,9 @@
 # Feature Engineering
 
+### Network Architecture
+- Input Layer: 15 nodes
+- Output Lyer: 8 nodes
+
 ### Scalar variables taken straight from analysis:
   - Acousticness
   - Danceability
@@ -12,13 +16,13 @@
 
 ### The hard part:
   - Mode
-    - Use dummy variables for input, as interactions with other terms are important
+    - Use dummy variables for input, as interactions with other terms are important (7 total posible values)
     - Not in output layer, but used with key to determine harmonic/consonant transitions
   - Key
     - Use research in computational musicology for output matching (along with mode)
   - Tempo
     - Do not use for input or output of RNN
-    - similarity metric is explained below
+    - similarity metric is explained below, and is part of matching output feature vector
 
 ## Tempo
 One of the hardest questions in this project was how to use tempo.  Surely it's an important feature, but how to treat it mathematically was not apparent at first.  I took an approach which expands tempo to two dimensions so that a similarity metric can be calculated as the distance between points. A circle is used to caputre the cyclical nature of tempo similarity.
