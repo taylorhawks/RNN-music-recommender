@@ -36,3 +36,6 @@ A simplified similarity sccore is given by:
 <img src = "images/tempo_similarity.png"/>
 
 <a href = "https://www.wolframalpha.com/input/?i=cos(2pi*log2(a)-2pi*log2(b)))+in+range(30,200)">Wolfram Alpha</a>
+
+Similarity based on tempo ratio for the simplified similarity score is shown below:
+<img src = "tempo_2d_simple.png"/>
