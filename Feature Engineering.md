@@ -39,3 +39,9 @@ A simplified similarity sccore is given by:
 
 Similarity based on tempo ratio for the simplified similarity score is shown below:
 <img src = "tempo_2d_simple.png"/>
+
+Here's what that looks like as a graph of similarity against ratio:
+<img src="images/tempo_2d_simple.png"/>
+
+And, in three dimensions, the tempos against each other - with the third dimension shown as a color gradient:
+<img src="images/tempo_ratio_contour.gif"/>
