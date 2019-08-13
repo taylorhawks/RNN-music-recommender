@@ -59,6 +59,10 @@ _Find a balanced minimum of distance, dissonance, and tempo change._
   - https://datascience.stackexchange.com/questions/14899/how-to-draw-deep-learning-network-architecture-diagrams
 - http://docs.echonest.com.s3-website-us-east-1.amazonaws.com/_static/AnalyzeDocumentation.pdf
 - https://plot.ly/python/animations/
+
+#### More on Key Transition Consonance
+- http://mindmodeling.org/cogsci2011/papers/0843/paper0843.pdf
+- This might be the one: https://arxiv.org/pdf/1603.08904.pdf
   
 ## Data Gathering
 #### Spotify API
