@@ -1,4 +1,7 @@
 # Recommender
+
+(update readme - this is out of date)
+
 Ordered recommendations using recurrent nerual networks.
 
 The main focus of this project is a content-based algorithm.
