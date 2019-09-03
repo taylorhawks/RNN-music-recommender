@@ -106,7 +106,7 @@ Minor keys are assigned to their relative majors and distances are calculated fr
 
 ---
 # Everything together in action
-
+Use the notebook Pipeline.ipynb to pick 3 songs.  These starter sequence generates 200-400 candidate songs by using Spotify recommendations through their API.  The RNN predicts the next feature vector and the algorithm picks ten more songs.  A visualization of the playist's flow is generated using Plotly as shown below. Lines connect songs sequentially.
 <img src = "images/playlist_path_example.png"/>
 
 ---
