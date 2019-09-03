@@ -49,6 +49,8 @@ Concrete Features
 - Speechiness
 - Valence
 
+<img src= "imagess/heatmap.png">
+
 ---
 # Recurrent Neural Network
 
