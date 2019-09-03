@@ -95,7 +95,9 @@ As mentioned above, _mode_ is not part of the output vector because first, it's 
 ## 2. Key Similarity
 The circle of fifths is the backbone of this part of the algorithm.  Distance in the circle of fifths determines how close two keys are in both a sonic and simple mathematical sense, so the number of steps is the basis for this part of the loss function for a song.
 
-<img/>
+<img src = "images/circle-of-fifths.jpg"/>
+
+Minor keys are assigned to their relative majors and distances are calculated from there. Fifths and fourths are assigned the same distance as the same octave, so the function sees no difference between those three options.  The tuning parameter "sweetness" adjusts how much the _argmin_ function counts key similarity in making its decisions.
 
 ## 3. Tempo Similarity
 
