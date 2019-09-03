@@ -103,7 +103,7 @@ The circle of fifths is the backbone of this part of the algorithm.  Distance in
 ---
 # Everything together in action
 
-<img src = "playlist_path_example.png"/>
+<img src = "images/playlist_path_example.png"/>
 
 ---
 ## Next Steps
