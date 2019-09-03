@@ -59,6 +59,9 @@ Standard Scaler and Yeo-Johnson Power Transformation applied to training set wit
 
 Although Euclidian distance is ideal for model implementation, MSE often leads to under-estimation of weights and biases as gradients lead to local minima near zero, as outliers are heavily penalized.  This is why MAE is used as an objective function instead.
 
+Linear activations were used in all layers as they are less likely to under-estimate features and produce a higher-variance model.  Weights are initialized randomly, and Adam optimizer was used instead of RMSProp, though the latter is more common for RNNs.  The logic gates of GRU and LSTM are not necessary as long-term dependency is not a major concern.
+
+
 
 
 ---
