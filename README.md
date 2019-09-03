@@ -55,6 +55,12 @@ Concrete Features
 # Recurrent Neural Network
 A recurrent neural network is different from other deep learning architectures because it learns sequences rather than a single set of values.  While RNN applications in recommendation systems typically involve one-hot encoding for the next item in a sequence, I've employed RNNs for multivariate time series forecasting of the different "abstract features" which describe the character of songs in a playlist.  The RNN architecture is 9 inputs, 8 outputs, with two 16-node hidden layers.  8 input/output nodes correspond to the 8 "abstract features," and one additional one is used in the input layer for mode. (More on this later.) The model's mean absolute error is 0.5848 and the mean absolute deviation in the training data is 0.8535.
 
+<img src="architecture.png"/>
+
+The model uses a many-to-many sequence learning format, and in its implementation is used as many-to-one.  At each step of the RNN, the whole computation graph (above) is used.
+
+<img src="images/many-to-one.png"/>
+
 Standard Scaler and Yeo-Johnson Power Transformation applied to training set with duplicates removed, to give the data better distributions both for training as well as distance metrics.  Furthermore, some features, especially "Loudness," benefit from reducing the extreme long tails.
 
 Although Euclidian distance is ideal for model implementation, MSE often leads to under-estimation of weights and biases as gradients lead to local minima near zero, as outliers are heavily penalized.  This is why MAE is used as an objective function instead.
