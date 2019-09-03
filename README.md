@@ -99,7 +99,7 @@ The circle of fifths is the backbone of this part of the algorithm.  Distance in
 
 ## 3. Tempo Similarity
 
-<img/>
+<img src = "images/tempo_similarity.png"/>
 <img/>
 <img/>
 
