@@ -93,7 +93,7 @@ As mentioned above, _mode_ is not part of the output vector because first, it's 
 - Spicyness: a scaler for the RNN output, since parameters are often underestimated
 
 ## 2. Key Similarity
-The circle of fifths is the backbone of this part of the algorithm.  Distance in the circle of fifths determines how close two keys are in both a sonic and simple mathematical sense, so the number of steps is the basis for this part of the loss function for a song.
+The circle of fifths is the backbone of this part of the algorithm.  Distance in the circle of fifths determines how close two keys are in both a sonic and simple mathematical sense, so the number of steps is the basis for this part of the loss function for a song.  Research in computational music theory has more complex and elegant solutions to this problem, but the circle of fifths will do for now.
 
 <img src = "images/circle-of-fifths.jpg"/>
 
@@ -122,7 +122,3 @@ Minor keys are assigned to their relative majors and distances are calculated fr
 ## Research
 - Sequence-Aware Recommender Systems: https://arxiv.org/pdf/1802.08452.pdf
 - RNNs: http://karpathy.github.io/2015/05/21/rnn-effectiveness/
-
- 
-
-
