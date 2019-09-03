@@ -1,17 +1,25 @@
-# Recommender
+# The Best Playlists are More than a Collection of Songs
+Have you ever made a playlist or mixtape and are stuck on the order to put the songs in?  Maybe we can learn from different spotify users what makes a good playlist.
+The best playlists have a good flow.  This is what separates a good DJ from a bad DJ, given they have the same tracks and technical aptitude.  Build-ups and break-downs make for an interesting experience, and it’s more than just picking the most similar song to the last one.
 
-(update readme - this is out of date)
+### The Solution
+_Deep Sequential Content Optimization_ or "DISCO"
+- Ordered recommendations using recurrent nerual networks.
+- The main focus of this project is a content-based algorithm that would sit on top of a layer of collaborative filtering.
 
-Ordered recommendations using recurrent nerual networks.
-
-The main focus of this project is a content-based algorithm.
+## Table of Contents - Highlights
+- pipeline.ipynb - This is the algorithm in action with a full pipeline of transformations and predictions to build playlists.
+- /cloud/model.ipynb - RNN trained on Amazon SageMaker
+- /data-wrangling/preprocessing.ipynb - the majority of data preprocessing and EDA is here.  This is also where PCA and scalers are trained.
 
 ## The Algorithm
-1. A sub-set of songs is selected using either collaborative filtering or a simple query based on subgenre.  This step is open to experimentation and is not the main scope of focus for this project.
-2. A recurrent neural network determines the ideal feature vector for the next song based on the previous sequence of songs.  This is a simple RNN without GRU or LSTM.
-3. The next song is selected based on minimum loss from the sub-set selected in step 1.  The loss function is determined based on the distance from a song to the ideal feature vector as well as the consonance of song key transition (and possilby other aspects related to computational music theory).  This is a greedy algorithm which does not consider whether the song might better fulfill the objective function better later in the sequence.
-4. Next song is plugged into the RNN and the process repeats from step 2.
-5. Once the RNN is fully trained the algorithm will be able to create playlists given a small number of songs as a starting sequence - even just a single song.
+1. A sub-set of songs is selected using collaborative filtering or a simple query based on subgenre.  I'm using Spotify's Api to select roughly 200-400 songs.
+2. A recurrent neural network determines the ideal feature vector for the next song based on the previous sequence of songs.
+3. The next song is selected based on minimum loss from the sub-set selected in step 1.  The loss function is determined based on the distance from a song to the ideal feature vector as well as the consonance of song key transition and similarity of tempo. This is a greedy algorithm which does not consider whether the song might better fulfill the objective function better later in the sequence.
+4. Next song is plugged into the RNN and the process repeats from step 2 until the playlist is a satisfactory length.
+
+
+---
 
 #### The RNN
 <img src = "/images/rnn_instance.png"/>
