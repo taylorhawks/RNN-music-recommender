@@ -107,6 +107,8 @@ A plot of similarity against tempo ratio is shown below:
 
 <img src = "images/tempo_2d_simple.png"/>
 
+The tuning parameter "smoothness" determines how important tempo similarity is in the song selection process.
+
 ---
 # Everything together in action
 Use the notebook Pipeline.ipynb to pick 3 songs.  These starter sequence generates 200-400 candidate songs by using Spotify recommendations through their API.  The RNN predicts the next feature vector and the algorithm picks ten more songs.  A visualization of the playist's flow is generated using Plotly as shown below. Lines connect songs sequentially.
