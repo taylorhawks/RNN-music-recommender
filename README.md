@@ -99,8 +99,12 @@ The circle of fifths is the backbone of this part of the algorithm.  Distance in
 Minor keys are assigned to their relative majors and distances are calculated from there. Fifths and fourths are assigned the same distance as the same octave, so the function sees no difference between those three options.  The tuning parameter "sweetness" adjusts how much the _argmin_ function counts key similarity in making its decisions.
 
 ## 3. Tempo Similarity
+One of the hardest feature engineering questions in this project was how to use tempo. Surely it's an important feature, but how to treat it mathematically was not immediately apparent. I took an approach which expands tempo to two dimensions so that a similarity metric can be calculated as the distance between points. A circle is used to caputre the cyclical nature of tempo similarity, and then the function was transformed monotonically to give a simpler version:
 
 <img src = "images/tempo_similarity.png"/>
+
+A plot of similarity against tempo ratio is shown below:
+
 <img src = "images/tempo_2d_simple.png"/>
 
 ---
