@@ -7,6 +7,18 @@ _Deep Sequential Content Optimization_ or "DISCO"
 - Ordered recommendations using recurrent nerual networks.
 - The main focus of this project is a content-based algorithm that would sit on top of a layer of collaborative filtering.
 
+### Key Concepts
+- Recommendation Systems
+- Sequence Learning
+- Recurrent Neural Networks
+- Computational Music Theory
+
+ ### Tech
+ - Spotify API
+ - Keras
+ - Plotly
+
+
 ## Table of Contents - Highlights
 - pipeline.ipynb - This is the algorithm in action with a full pipeline of transformations and predictions to build playlists.
 - /cloud/model.ipynb - RNN trained on Amazon SageMaker
@@ -67,97 +79,42 @@ Although Euclidian distance is ideal for model implementation, MSE often leads t
 
 Linear activations were used in all layers as they are less likely to under-estimate features and produce a higher-variance model.  Weights are initialized randomly, and Adam optimizer was used instead of RMSProp, though the latter is more common for RNNs.  The logic gates of GRU and LSTM are not necessary as long-term dependency is not a major concern.
 
+---
+
+# Selecting the Next Song
+Three parameters are used to pick the best next song
+
+## 1. Distance to RNN output vector
+As mentioned above, _mode_ is not part of the output vector because first, it's used insteead with key to determine key transition consonance, and second, because I didn't want errors to backpropagate. Two tuning parameters are associated with this distance metric:
+- Flow: how much to count distance in the overall _argmin_ that determines the next song to pick
+- Spicyness: a scaler for the RNN output, since parameters are often underestimated
+
+## 2. Key Similarity
+The circle of fifths is the backbone of this part of the algorithm.  Distance in the circle of fifths determines how close two keys are in both a sonic and simple mathematical sense, so the number of steps is the basis for this part of the loss function for a song.
+
+<img/>
+
+## 3. Tempo Similarity
+
+<img/>
+<img/>
+<img/>
+
+---
+# Everything together in action
+
 
 
 
 ---
-
-#### The RNN
-<img src = "/images/rnn_instance.png"/>
-
-#### Selecting the next song
-_Find a balanced minimum of distance, dissonance, and tempo change._
-<img src = "/images/song_selection_u.png"/>
-
-#### Computing with the RNN
-<img/>
-
-## Key Concepts
-- Recommendation Systems
-- Sequence Learning
-- Recurrent Neural Networks
-- Computational Music Theory
-- Traveling Salesman Problem
-
-## Neural Network Architecture
-- Recurrent
-- Unidirectional
-- Many-to-one architecture (or a somewhat modified many-to-many)
-- tanh or linear activation in hidden layers
-- Sigmoid activation in output layer
-- GRU is not necessary because long-term dependency is not important.
-- Similarly, LSTM is not necessary.
-- Conventions:
-  - 2 or 3 hidden layers (more than that is quite rare for RNN due to the temporal dimension)
-  - Sometimes start with recurrent layers, and _then_ have deep layers.
+## Next Steps
+- 
+- 
 
 ## Research
 - Sequence-Aware Recommender Systems: https://arxiv.org/pdf/1802.08452.pdf
-- https://papers.nips.cc/paper/5653-a-recurrent-latent-variable-model-for-sequential-data.pdf
-- https://www.kdnuggets.com/2015/06/rnn-tutorial-sequence-learning-recurrent-neural-networks.html
-- https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf
-- Sequence Learning from Nvidia: https://devblogs.nvidia.com/deep-learning-nutshell-sequence-learning/
-- The GOAT Andrew Ng: https://www.coursera.org/learn/nlp-sequence-models/lecture/ftkzt/recurrent-neural-network-model
-- Jason Brownlee: https://machinelearningmastery.com/sequence-prediction/
-- Music consonance and dissonance: https://music.stackexchange.com/questions/4439/is-there-a-way-to-measure-the-consonance-or-dissonance-of-a-chord
-- Quantifying dissonance: http://musicalgorithms.ewu.edu/learnmoresra/files/vassilakis2005sre.pdf
-- http://sethares.engr.wisc.edu/comprog.html
-- https://arxiv.org/pdf/1603.08904.pdf
-- https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780195148367.001.0001/acprof-9780195148367-chapter-7
-- https://i.stack.imgur.com/wmT4w.png
-- kind-of famous blog post: http://karpathy.github.io/2015/05/21/rnn-effectiveness/
-- drawing diagrams:
-  - http://fastml.com/deep-learning-architecture-diagrams/
-  - https://datascience.stackexchange.com/questions/14899/how-to-draw-deep-learning-network-architecture-diagrams
-- http://docs.echonest.com.s3-website-us-east-1.amazonaws.com/_static/AnalyzeDocumentation.pdf
-- https://plot.ly/python/animations/
+- RNNs: http://karpathy.github.io/2015/05/21/rnn-effectiveness/
 
-#### More on Key Transition Consonance
-- http://mindmodeling.org/cogsci2011/papers/0843/paper0843.pdf
-- This might be the one: https://arxiv.org/pdf/1603.08904.pdf
-  
-## Data Gathering
-#### Spotify API
-- How to get playlists: https://developer.spotify.com/documentation/web-api/reference/browse/get-list-featured-playlists/
-- Playlist curators: https://sidekick-music.com/2018/11/30/top-spotify-playlist-curators-2018/
-- Collaborative part:
-  - Already have a dataset of users playlists
-  - Can also use spotify's built-in recommendation via the API (as a placeholder of course)
-
-
-## Outline
-#### MVP
-- Get playlist and song data from spotify API
-- EDA w/ Dickey-Fuller test for stationarity of time series principal components
-- Train and evaluate RNN
-- PCA and visualization
-- Functional input/output
-- Neural network diagrams
-
-#### Optional
-- API with I/O
-- Key considerations (see quantifying dissonance)
-- Genre considerations
-- Dimensionality reduction
-- Try different distance metrics
-  
- #### Very optional
- - 3D Animated Visualization (Plotly)
- - Collaborative filtering
  
- ## Tech
- - Spotify API
- - Keras
- - Plotly
- - Mlrose
- - Selenium ?
+
+
