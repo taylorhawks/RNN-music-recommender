@@ -44,6 +44,9 @@ _Deep Sequential Content Optimization_ or "DISCO"
 
 <img src = "images/distplot.png"/>
 
+### A Note on Data Quality
+...
+
 ## Features
 _Metadata from Spotify "Features" API_
 
@@ -107,8 +110,13 @@ The circle of fifths is the backbone of this part of the algorithm.  Distance in
 
 ---
 ## Next Steps
-- 
-- 
+- Incorporate collaborative filtering
+- Investigate possible bug in Spotify API Client
+- Better data quality
+- Continued RNN tuning
+- Limiting algorithm “greediness”
+- More research into computational music theory
+
 
 ## Research
 - Sequence-Aware Recommender Systems: https://arxiv.org/pdf/1802.08452.pdf
