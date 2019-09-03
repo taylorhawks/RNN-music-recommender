@@ -30,7 +30,7 @@ _Deep Sequential Content Optimization_ or "DISCO"
 - Used that to build search strings and hit spotify’s API for like literally a week straight
 - Training Data for RNN is a 72051 x 50 x 9 tensor
 
-<img/>
+<img src = "images/distplot.png"/>
 
 ## Features
 _Metadata from Spotify "Features" API_
