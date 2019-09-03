@@ -18,7 +18,6 @@ _Deep Sequential Content Optimization_ or "DISCO"
  - Keras
  - Plotly
 
-
 ## Table of Contents - Highlights
 - pipeline.ipynb - This is the algorithm in action with a full pipeline of transformations and predictions to build playlists.
 - /cloud/model.ipynb - RNN trained on Amazon SageMaker
@@ -45,7 +44,7 @@ _Deep Sequential Content Optimization_ or "DISCO"
 <img src = "images/distplot.png"/>
 
 ### A Note on Data Quality
-...
+User playlists are used in training as a proxy for listening history or more intentionally curated playlist.  Improved data quality woulld do a lot for an improved RNN model.
 
 ## Features
 _Metadata from Spotify "Features" API_
