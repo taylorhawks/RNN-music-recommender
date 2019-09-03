@@ -18,6 +18,41 @@ _Deep Sequential Content Optimization_ or "DISCO"
 3. The next song is selected based on minimum loss from the sub-set selected in step 1.  The loss function is determined based on the distance from a song to the ideal feature vector as well as the consonance of song key transition and similarity of tempo. This is a greedy algorithm which does not consider whether the song might better fulfill the objective function better later in the sequence.
 4. Next song is plugged into the RNN and the process repeats from step 2 until the playlist is a satisfactory length.
 
+---
+## The Data
+- Inital Data...
+  - 15,918 users
+  - 157,504 playlists
+  - 2,032,044 songs
+- The data used
+  - Very large and very small playlists removed
+  - Things like “liked from radio” dropped
+- Used that to build search strings and hit spotify’s API for like literally a week straight
+- Training Data for RNN is a 72051 x 50 x 9 tensor
+
+<img/>
+
+## Features
+_Metadata from Spotify "Features" API_
+
+Concrete Features
+- Key
+- Mode
+- Tempo
+“Abstract” Features
+- Acousticness
+- Danceability
+- Energy
+- Instrumentalness
+- Liveness
+- Loudness
+- Speechiness
+- Valence
+
+---
+# Recurrent Neural Network
+
+
 
 ---
 
